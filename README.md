@@ -1,4 +1,5 @@
 # bodega
+Projeto integrador com intuito de criar um software pra uso num bodegão 👍
 
 ## cliente
 - id_cliente
