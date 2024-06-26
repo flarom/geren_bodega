@@ -1,0 +1,147 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    border-radius: 10px;
+    border: 2px solid black;
+    border-bottom: 5px solid;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    vertical-align: middle;
+    color: black;
+    font-weight: 500;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+a.wide {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+div.comandas {
+    border-radius: 10px;
+    border: 2px solid black;
+    border-bottom: 5px solid black;
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+    font-size: 17px;
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 10px;
+}
+
+div.comanda {
+    border-radius: 10px;
+    border: 2px solid black;
+    border-bottom: 5px solid black;
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+    font-size: 17px;
+    color: black;
+}
+
+div.flex {
+    display: flex;
+    align-items: center;
+
+    border-radius: initial;
+    border: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    color: inherit;
+}
+
+div {
+    border-radius: 10px;
+    border: 2px solid black;
+    border-bottom: 5px solid black;
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    display: inline-block;
+}
+
+div.semBorda {
+    border: 1px;
+    margin: 5px;
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    display: inline-block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+textarea,
+select {
+    border-radius: 10px;
+    border: 2px solid black;
+    border-bottom: 5px solid black;
+    background-color: white;
+    height: 37px;
+    width: 500px;
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+button[type="submit"],
+input[type="submit"] {
+    background-color: #a8ffac;
+}
+
+button[type="reset"],
+input[type="reset"] {
+    background-color: #ffa8a8;
+}
+
+button {
+    transition: transform 0.1s, box-shadow 0.1s;
+    border-radius: 10px;
+    border: 2px solid black;
+    border-bottom: 5px solid black;
+    padding: 7px;
+    margin: 5px;
+    background-color: white;
+    font-size: 17px;
+    cursor: pointer;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button:hover {
+    transform: translateY(-4px);
+    box-shadow: 0px 4px black;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    margin: 1em 0;
+    padding: 0;
+    width: 100%;
+}

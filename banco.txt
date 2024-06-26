@@ -1,0 +1,7 @@
+create table cliente(id_cliente int primary key auto_increment, nome varchar(255), cpf varchar(11), telefone varchar(11));
+
+create table produto(id_produto int primary key auto_increment, nome varchar(255),
+ marca varchar(255), tamanho varchar(255), validade varchar(8), quantidade int, preco double);
+
+create table comanda(id_comanda int primary key auto_increment, id_cliente int,
+id_produto int, quantidade int, foreign key(id_cliente) references cliente(id_cliente), foreign key(id_produto) references produto(id_produto));
